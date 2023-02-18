@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1>Library Management system </h1>
+            <div class="form">
+                <table class="common">
+                    <tr>
+                        <td> <label>Book Name</label></td>
+                        <td> <input type="text" id="book"></td>
+                    </tr>
+                    <tr>
+                        <td> <label>issue book</label></td>
+                        <td> <input type="text" id="issue"></td>
+                    </tr>
+                </table>
+                <button onclick="AddBook()" class="btn">issue book</button>
+            </div>
+           
+        </div>
+        <div>
+            <table border="1" id="myTable">
+                <thead>
+                    <tr>
+                        <td>ID</td>
+                        <td>Book Name</td>
+                        <td>Issued To</td>
+                        <td>Issue Date and Time </td>
+                        <td>Status</td>
+                    </tr>
+                </thead>
+                <tbody id="tableBody" border="1">
+                  
+                </tbody>
+            </table>
+        </div>
+    </div>
+   
+    <script src="scxript.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script> 
+</body>
+
+</html>

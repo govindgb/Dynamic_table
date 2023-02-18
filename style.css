@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    height: 500px;
+    width: 500px;
+    background-color: black;
+    color: aliceblue;
+
+}
+.common{
+    width: 80%;
+   
+}
+.btn{
+    width: 64%;
+    border: 2px solid red;
+    margin-top: 2%;
+}
+.form{
+    margin: 5%;
+}
+h1{
+    margin-left: 25px;
+}
+/* .edit {  
+    background: #2199e8;  
+    color: #ffffff;  
+    &:hover {  
+      background: darken(#2199e8, 10%);  
+    }  
+  }   */
+  #myTable{
+       height: 200px;
+       margin-left: 25px;
+  }
